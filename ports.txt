@@ -1,0 +1,8 @@
+user-service-9001
+	/user/ID
+contact-service-9002
+	/contacts/{userId}
+
+eureka-server-8761
+
+api-gateway-8999

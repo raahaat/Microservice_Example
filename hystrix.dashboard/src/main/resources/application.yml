@@ -1,0 +1,13 @@
+server:
+  port: 9555
+
+spring:
+  application:
+    name: hystrix-dashboard
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
